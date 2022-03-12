@@ -1,5 +1,33 @@
 .header {
   width: 100%;
   padding: 1rem;
-  background-color: blue;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: #090125;
+}
+
+.itensHeader {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.imitaMobileButton {
+  width: 30px;
+}
+
+.imitaMobileButton::before {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 90%;
+  background-color: #fff;
+  box-shadow: 0 9px #fff, 0 -9px #fff;
 }
