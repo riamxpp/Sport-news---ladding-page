@@ -1,0 +1,91 @@
+.the2019Section {
+  width: 100%;
+  height: auto;
+  padding: 10rem 0;
+  display: flex;
+  justify-content: center;
+  background-image: url("../Assents/Img/BackgroundTheNike2019.jpg");
+  position: relative;
+}
+
+.the2019Section::after {
+  content: "";
+  background-image: url("../Assents/Img/DetailsTheNike2019.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 43rem;
+  height: 35rem;
+  right: 0;
+  top: 380px;
+}
+
+.the2019Section::before {
+  content: "";
+  background-image: url("../Assents/Img/Details2TheNike2019.png");
+  background-repeat: no-repeat;
+  background-size: 35rem;
+  position: absolute;
+  width: 43rem;
+  height: 35rem;
+  left: 0;
+  top: 290px;
+}
+
+.the2019SeguraContent {
+  width: 85%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.the2019Content {
+  width: 34rem;
+}
+
+.the2019Content h1 {
+  font-size: 4.5rem;
+  line-height: 1.1;
+  font-family: "Fjalla One";
+  font-weight: 900;
+}
+
+.the2019Content p {
+  margin-top: 6rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.6;
+  margin-bottom: 5rem;
+}
+
+.the2019image {
+  width: 47rem;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+}
+
+.the2019image div {
+  width: 40rem;
+  height: 40rem;
+  background-image: url("../Assents/Img/DoisTênisTheNike2019.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  border: 8px solid #fff;
+}
+
+.the2019Content button {
+  background-color: transparent;
+  padding: 1.5rem 3.5rem;
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.the2019Content button:hover {
+  background-color: #fff;
+  color: #000;
+}
