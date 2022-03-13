@@ -1,0 +1,124 @@
+.fotoTenisBeforeChineseNewYear {
+  width: 100%;
+  height: 40rem;
+  background-image: url("../Assents/Img/BackgroundAfterNikeKyrie4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+
+.chineseNewYear {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15rem;
+  background: linear-gradient(to right, #0c032e, #2b2933);
+  padding: 5rem 0 15rem 0;
+  position: relative;
+}
+
+.chineseNewYear::before {
+  content: "";
+  width: 40rem;
+  height: 35rem;
+  position: absolute;
+  left: 0;
+  top: 450px;
+  background: url("../Assents/Img/ChineseNewYearDetails.png") no-repeat;
+  transform: scale(1.2);
+}
+
+.chineseNewYear::after {
+  content: "";
+  width: 29rem;
+  height: 27rem;
+  position: absolute;
+  right: 115.5px;
+  top: 950px;
+  background: url("../Assents/Img/ChineseNewYearDetails2.png") no-repeat;
+  transform: scale(1.5);
+}
+
+.chineseNewYearThreeExample {
+  width: 80rem;
+}
+
+.chineseNewYearThreeExample h3 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.chineseNewYearThreeExample li {
+  width: 80rem;
+  list-style: none;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  margin: 0;
+  margin-left: 2rem;
+}
+
+.chineseNewYearPrimeiroLi::marker {
+  content: "1. ";
+}
+
+.chineseNewYearSegundoLi::marker {
+  content: "2. ";
+}
+
+.chineseNewYearTerceiroLi::marker {
+  content: "3. ";
+}
+
+.chineseNewYearContent {
+  display: flex;
+  gap: 6rem;
+}
+
+.chineseNewYearImage {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  background: url("../Assents/Img/ChineseNewYear3Tenis.jpg") no-repeat;
+  background-size: cover;
+  border: 0.1px solid #333333;
+  outline: solid 10px #fff;
+  z-index: 1;
+}
+
+.chineseNewYearParagrafo {
+  width: 450px;
+  z-index: 2;
+}
+
+.chineseNewYearParagrafo h4 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.chineseNewYearParagrafo p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: bold;
+  word-break: break-word;
+  margin-bottom: 3rem;
+}
+
+.chineseNewYearParagrafo button {
+  padding: 1rem 3rem;
+  background-color: transparent;
+  color: #fff;
+  border: 3px solid #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+.chineseNewYearParagrafo button:hover {
+  background-color: #fff;
+  color: #000;
+}

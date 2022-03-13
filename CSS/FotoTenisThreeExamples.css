@@ -12,6 +12,19 @@
   height: auto;
   background: linear-gradient(to right, #0d042e, #2b2933);
   padding: 10rem 0;
+  position: relative;
+}
+
+.threeExamples::after {
+  content: "";
+  width: 20rem;
+  height: 31rem;
+  background-image: url("../Assents/Img/DetailsTheExample.png");
+  background-repeat: no-repeat;
+  transform: scale(1.5);
+  position: absolute;
+  right: 80px;
+  top: 400px;
 }
 
 .threeExamplesImages {
@@ -25,6 +38,7 @@
   width: 25rem;
   height: 30rem;
   overflow: hidden;
+  z-index: 2;
 }
 
 .threeExamplesExample1 {
@@ -50,7 +64,6 @@
 
 .threeExapleContent h2 {
   font-weight: 400;
-  margin-left: 35px;
   font-size: 3rem;
   line-height: 1.1;
   margin-bottom: 3rem;

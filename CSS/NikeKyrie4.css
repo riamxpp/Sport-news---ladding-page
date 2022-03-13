@@ -1,0 +1,87 @@
+.NikeKyrie4 {
+  background-image: url("../Assents/Img/BackgroundTheNike2019.jpg");
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr;
+  gap: 3rem 0;
+  padding-bottom: 5rem;
+}
+
+.NikeKyrie4 h3 {
+  font-family: "Fjalla One";
+  font-size: 3rem;
+  grid-column: 1;
+  grid-row: 1;
+  width: 65%;
+  align-self: center;
+  justify-self: center;
+}
+
+.NikeKyrie4-3Tenis {
+  width: 673px;
+  height: 373px;
+  grid-column: 2;
+  grid-row: 1;
+  background-image: url("../Assents/Img/NikeKyrie4-3Tenis.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+  filter: brightness(0.95);
+  box-shadow: 2px 2px 40px 0 rgb(26 26 26 / 20%);
+}
+
+.NikeKyrie4Tenis {
+  grid-column: 1;
+  grid-row: 2;
+  position: relative;
+}
+
+.NikeKyrie4TenisImage {
+  width: 35rem;
+  height: 35rem;
+  background-image: url("../Assents/Img/NikeKyrie4Tenis.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  border: 0.1px solid #333;
+  outline: 10px solid #fff;
+  margin: 0 auto;
+  box-shadow: 2px 2px 40px 0 rgb(26 26 26 / 20%);
+}
+
+.NikeKyrie4TenisNomeTenis {
+  padding: 1.5rem 7rem 1.5rem 1rem;
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background: linear-gradient(to bottom, #ff1665, #fc9312);
+  text-transform: uppercase;
+  line-height: 1.6;
+  top: 200px;
+  right: 0;
+}
+
+.NikeKyrie4Paragrafo {
+  grid-column: 2;
+  grid-row: 2;
+  margin-left: 0.5rem;
+  width: 600px;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  white-space: 1.2;
+  letter-spacing: 0.05cm;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.NikeKyrie4Paragrafo button {
+  width: 15rem;
+  height: 4rem;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.1cm;
+}

@@ -1,0 +1,23 @@
+.footer {
+  height: auto;
+  padding: 5rem 0;
+  background-color: #0c032e;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer div {
+  width: 20rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer div h6 {
+  font-size: 1.5rem;
+}
+
+.footer div p {
+  font-size: 1.25rem;
+}
