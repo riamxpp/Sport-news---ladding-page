@@ -1,0 +1,78 @@
+.fotoTenis {
+  width: 100%;
+  height: 40rem;
+  background-image: url("../Assents/Img/BackgroundAfterTheNike2019.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.threeExamples {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to right, #0d042e, #2b2933);
+  padding: 10rem 0;
+}
+
+.threeExamplesImages {
+  width: 80rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto 10rem auto;
+}
+
+.threeExamplesImages article {
+  width: 25rem;
+  height: 30rem;
+  overflow: hidden;
+}
+
+.threeExamplesExample1 {
+  background: url("../Assents/Img/Example1.jpg");
+  background-size: cover;
+}
+
+.threeExamplesExample2 {
+  background: url("../Assents/Img/Example2.jpg");
+  background-size: cover;
+  background-position: -20rem;
+}
+
+.threeExamplesExample3 {
+  background: url("../Assents/Img/Example3.jpg");
+  background-size: cover;
+}
+
+.threeExapleContent {
+  width: 80rem;
+  margin: 0 auto;
+}
+
+.threeExapleContent h2 {
+  font-weight: 400;
+  margin-left: 35px;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 3rem;
+}
+
+.threeExamplesList li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 1.5rem;
+  word-wrap: break-word;
+  line-height: 1cm;
+  width: 67rem;
+}
+
+.threeExamplesList li:first-child::marker {
+  content: "1. ";
+}
+
+.segundoItemThreeExamplesList::marker {
+  content: "2. ";
+}
+
+.threeExamplesList li:last-child::marker {
+  content: "3. ";
+}
