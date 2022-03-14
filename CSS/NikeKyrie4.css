@@ -25,7 +25,6 @@
   background-image: url("../Assents/Img/NikeKyrie4-3Tenis.jpg");
   background-size: cover;
   background-position: 0% 50%;
-  filter: brightness(0.95);
   box-shadow: 2px 2px 40px 0 rgb(26 26 26 / 20%);
 }
 
@@ -84,4 +83,66 @@
   font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 0.1cm;
+}
+
+@media (max-width: 1350px) {
+  .NikeKyrie4 {
+    width: 100%;
+  }
+  .NikeKyrie4-3Tenis {
+    width: 500px;
+    background-position-x: -20px;
+  }
+
+  .NikeKyrie4TenisImage {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .NikeKyrie4TenisNomeTenis {
+    padding: 1rem 5rem 1rem 1rem;
+    top: 100px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .NikeKyrie4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  .NikeKyrie4 h3 {
+    margin-top: 4rem;
+  }
+  .NikeKyrie4TenisNomeTenis {
+    top: 400px;
+  }
+}
+
+@media (max-width: 790px) {
+  .NikeKyrie4Paragrafo {
+    width: 80%;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 570px) {
+  .NikeKyrie4-3Tenis {
+    width: 80%;
+  }
+
+  .NikeKyrie4TenisImage {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .NikeKyrie4TenisNomeTenis {
+    padding: 1rem 3rem 1rem 1rem;
+    top: 200px;
+    right: -50px;
+  }
 }

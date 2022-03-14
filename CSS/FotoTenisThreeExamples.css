@@ -50,6 +50,7 @@
   background: url("../Assents/Img/Example2.jpg");
   background-size: cover;
   background-position: -20rem;
+  background-repeat: no-repeat;
 }
 
 .threeExamplesExample3 {
@@ -88,4 +89,52 @@
 
 .threeExamplesList li:last-child::marker {
   content: "3. ";
+}
+
+@media (max-width: 1350px) {
+  .threeExamplesImages {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .threeExamplesImages article {
+    width: 20rem;
+    height: 20rem;
+  }
+  .threeExamplesExample2 {
+    background-position-x: 90%;
+  }
+
+  .threeExapleContent {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  .threeExamplesImages {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .threeExamplesImages article {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .threeExapleContent {
+    width: 80%;
+  }
+
+  .threeExamplesList li {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .threeExamplesImages article {
+    width: 15rem;
+    height: 15rem;
+  }
 }
